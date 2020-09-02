@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  margin-top:5%;
+  
+}
+
+.buttonSection {
+  border:1px solid black;
+}
+
+.margin {
+  margin:10px 10px 10px 10px;
+}
+
+.messageDisplay {
+  font-size: large;
+  margin-bottom:10px;
 }
 
 .App-logo {
