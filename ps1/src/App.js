@@ -35,7 +35,7 @@ function App() {
     //components to be displayed in the DOM
   return (
     <div>
-      {/* create 4 button components, creating props onClickFunction, attaching function incrementCounter defined above, and props increment, each button with its own defined increment value
+      {/* Calls above functions:create 4 button components, creating props onClickFunction, attaching function incrementCounter defined above, and props increment, each button with its own defined increment value
           create a display component with defining the props of message, and setting its value as counter
       */}
       <Button onClickFunction={incrementCounter} increment={5} />
