@@ -6,17 +6,18 @@ import "./App.css";
 
 import Counter from './ReactProjects/Counter';
 import GithubCardsApp from './ReactProjects/GithubCardsApp';
+import StarMatch from "./ReactProjects/StarGame";
 
 function App() {
   
   
   return (
     <div>
-      <Counter />
+      {/* <Counter />
       <br/>
       <GithubCardsApp />
-      <br/>
-      
+      <br/> */}
+      <StarMatch />
     </div>
   );
 }
