@@ -1,3 +1,5 @@
+
+  
 //input box will clear out every second, because entire <div> is being reloaded in the DOM every second
 const render = () => {
   document.getElementById('mountNode').innerHTML = `
@@ -26,5 +28,6 @@ ReactDOM.render(
 
 // 	currentTime: (new Date).toLocaleTimeString()
  setInterval(render, 1000);
+
 
 
